@@ -1,0 +1,13 @@
+/** "NomBalise" séléctionne la balise **/
+/** ."NomClass" séléctionne la class **/
+/** #"NomId" séléctionne l'id **/
+
+.calendrier {
+    border: 2px solid;    /**Sélection du tableau avec la "class" calendrier pour lui ajouter une bordure **/
+}
+.calendrier th {
+    border: 2px solid green;    /**Sélection de "th" enfant du tableau classé "calendrier" pour ajouter une bordure verte **/
+}
+.calendrier td {
+    border: 2px solid brown;
+}
