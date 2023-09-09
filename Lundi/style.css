@@ -46,8 +46,10 @@
     justify-content: space-around;
 }
 
-#nuage {
+.nuage {
     background: white;
+    font-size: 1.3em;
+    font-weight: bold;
     height: 150px;
     width: 300px;
     border-radius: 50%;
@@ -60,7 +62,7 @@
     animation-duration: 3s;
     animation-name: slidein;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
 body {
@@ -73,11 +75,6 @@ body {
     height: auto;
     display: flex;
     justify-content: space-around;
-    
-    
-    
-    
-    border: 1px solid black;
 }
 
 #avion {
