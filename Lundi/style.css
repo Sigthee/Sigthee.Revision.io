@@ -1,0 +1,98 @@
+@keyframes animationimg {
+    100% {
+        left: 45%;
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    0% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes explosionanim {
+    100% {
+        transform: translateY(-630px);
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes buildingfade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#blocknuage {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nuage {
+    background: white;
+    height: 150px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 75px;
+    box-shadow: 30px 0px 100px rgb(226, 226, 226);
+}
+
+#blague {
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+body {
+
+    background-color: rgb(0, 145, 212);
+}
+
+#prim {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    
+    border: 1px solid black;
+}
+
+#avion {
+    position: relative;
+    height: 150px;
+    animation: animationimg 10s ease-in infinite;
+}
+
+#building {
+    height: 600px;
+    animation: buildingfade 10s ease-in infinite;
+}
+
+#explosion {
+    position: relative;
+    margin-left: 1000px;
+    animation: explosionanim 10s ease-in infinite;
+}
